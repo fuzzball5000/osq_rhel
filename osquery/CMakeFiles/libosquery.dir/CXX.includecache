@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../include/osquery/core.h
+csignal
+-
+memory
+-
+mutex
+-
+string
+-
+vector
+-
+osquery/status.h
+-
+
+../../include/osquery/status.h
+sstream
+-
+string
+-
+
+/home/ec2-user/osquery/osquery/main/lib.cpp
+string
+-
+osquery/core.h
+-
+

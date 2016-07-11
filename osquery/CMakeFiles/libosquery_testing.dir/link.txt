@@ -1,0 +1,2 @@
+/bin/ar cr libosquery_testing.a  CMakeFiles/libosquery_testing.dir/tests/test_util.cpp.o
+/bin/ranlib libosquery_testing.a

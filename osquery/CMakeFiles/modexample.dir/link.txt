@@ -1,0 +1,1 @@
+/bin/clang++  -fPIC    -shared -Wl,-soname,libmodexample.so -o libmodexample.so CMakeFiles/modexample.dir/examples/example_module.cpp.o  -L/usr/local/lib -ldl 
